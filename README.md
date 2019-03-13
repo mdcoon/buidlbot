@@ -43,7 +43,7 @@ To get an API key, you must first signup to https://buidlhub.com and create a pr
 
 ## GraphQL Schema
 The graphQL schema is outlined below. Note that this will likely change as BUIDLHub adds more filtering and other features to its queries.
-```javascript
+```graphql
 scalar JSON
 
 
