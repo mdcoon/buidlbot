@@ -1,0 +1,41 @@
+{
+  "name": "buidlbot",
+  "version": "0.1.0",
+  "description": "Client for BUIDLHub",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill $(find ./src -name *.test.js)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buidlhub/buidlbot.git"
+  },
+  "keywords": [
+    "BUIDLHub"
+  ],
+  "author": "TekHedz, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buidlhub/buidlbot/issues"
+  },
+  "homepage": "https://github.com/buidlhub/buidlbot#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-es2015-classes": "^6.18.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  }
+}
