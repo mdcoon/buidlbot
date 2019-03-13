@@ -1,9 +1,11 @@
 {
   "name": "buidlbot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Client for BUIDLHub",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "babel ./src --out-dir ./dist --ignore '**/*.test.js'",
+    "build": "npm run prepare",
     "test": "mocha --compilers js:babel-core/register --require babel-polyfill $(find ./src -name *.test.js)"
   },
   "repository": {
